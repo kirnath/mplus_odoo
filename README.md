@@ -27,3 +27,12 @@ This module is will be used in Technical testing only and not allowed for public
 ## General Notes
 
 - Create jobs before applying random jobs snippets
+
+
+## Screenshots
+
+![Alt text](blocks.png)
+-
+![Alt text](btc_blocks.png)
+-
+![Alt text](jobs_block.png)
