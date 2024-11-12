@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="default_snippets_custom" inherit_id="website.snippets" name="Random Jobs snippets">
+        <xpath expr="//t/snippets[@id='snippet_groups']" position="inside">
+                <t snippet-group="jobs_custom" t-snippet="jobs_snippet.s_jobs_custom" string="Random Jobs"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_chart.svg"/>
+        </xpath>
+        <xpath expr="//t/snippets[@id='snippet_structure']" position="inside">
+                <t t-snippet="jobs_snippet.s_jobs_custom" string="Random Jobs" group="jobs_custom"
+                    t-image-preview="/jobs_snippet/static/src/img/snippets_previews/jobs_snippet.png">
+                    <keywords>chart, data, btc</keywords>
+                </t>
+        </xpath>
+    </template>
+</odoo>

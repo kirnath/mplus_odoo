@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_jobs_custom" name="Hello World Snippet">
+        <section class="s_jobs_custom" data-name="Hello World" data-snippet="s_jobs_custom" data-js="btcusd_data">
+            <div id="wrap" class="o_website_hr_recruitment_jobs_list o_colored_level o_cc o_cc2">
+                <!-- Topbar -->
+                <nav class="navbar navbar-light border-top shadow-sm d-print-none w-100 o_colored_level">
+                    <div class="container">
+                        <div class="d-flex flex-column flex-md-row flex-md-wrap flex-lg-nowrap align-items-center justify-content-between w-100">
+                            <span class="navbar-brand h5 my-0 me-sm-auto">Our Job Offers</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container oe_website_jobs">
+                <div class="row pt48 pb16">
+                    <div class="col-lg" id="jobs_grid_custom">
+                        <div class="row flex-column">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

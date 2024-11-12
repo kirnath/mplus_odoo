@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="default_snippets_custom" inherit_id="website.snippets" name="Update Social Snippet">
+        <xpath expr="//t/snippets[@id='snippet_groups']" position="inside">
+                <t snippet-group="btcusd" t-snippet="btcusd_snippet.s_btcusd" string="BTC - USD CHART"
+                    t-thumbnail="/website/static/src/img/snippets_thumbs/s_chart.svg"/>
+        </xpath>
+        <xpath expr="//t/snippets[@id='snippet_structure']" position="inside">
+                <t t-snippet="btcusd_snippet.s_btcusd" string="BTCUSD Chart" group="btcusd"
+                    t-image-preview="/btcusd_snippet/static/src/img/snippets_previews/btcusd_snippet.png">
+                    <keywords>chart, data, btc</keywords>
+                </t>
+        </xpath>
+    </template>
+</odoo>

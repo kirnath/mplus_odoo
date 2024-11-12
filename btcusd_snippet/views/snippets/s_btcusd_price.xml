@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_btcusd" name="Hello World Snippet">
+        <section class="s_btcusd" data-name="Hello World" data-snippet="s_btcusd" data-js="btcusd_data">
+            <div class="container">
+                <h1>BTC-USD PRICE 5D</h1>
+                <canvas></canvas>
+            </div>
+        </section>
+    </template>
+</odoo>
